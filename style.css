@@ -1,8 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:  arial;
-}
+    font-family:'inter';
+} 
 nav{
     font-weight:bolder;
     font-size: 30px;
@@ -150,4 +150,63 @@ nav >button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 50px;
+}
+.vedio-title{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    width:600px;
+}
+.vedio-title>h2{
+    font-size: 30px;
+    font-weight: 1000;
+}
+.vedio-title>p{
+    color: rgba(0, 0, 0, 0.74);
+}
+.current-target{
+    width:1400px;
+    margin: 100px auto;
+}
+.current-target-header{
+    width: 600px;
+    margin:10px auto ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.current-target-header>h2{
+    font-size: 30px;
+    font-weight: 1000;
+    text-align: center;
+}
+.current-target-header>p{
+    font-size: 18px;
+    text-align: center;
+}
+.target-common-parent{
+    display: flex;
+    justify-content: space-around;
+}
+.target-common{
+    width: 350px;
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 20px;
+    border-radius: 10px;
+    padding:40px ;
+    margin: 30px;
+}
+.target-common>img{
+    width: 55PX;
+}
+.target-common>h2{
+    font-size: 30px;
+    font-weight: 1000;
 }
