@@ -230,6 +230,10 @@ nav >button{
     border-radius: 10px;
     margin: 30px;
 }
+.common-text>a{
+    color: black;
+    font-weight: bold;
+}
 .common-text{
     display: flex;
     flex-direction: column;
