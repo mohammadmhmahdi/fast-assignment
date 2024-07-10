@@ -58,6 +58,10 @@ nav >button{
     font-weight: bolder;
     font-size: 20px;
 }
+.part-1-child>button>a{
+    text-decoration: none;
+    color: white;
+}
 .part-2{
     width: 1400px;
     margin:80px auto;
@@ -296,5 +300,16 @@ nav >button{
     border-radius: 10px;
     font-size: 16px;
     font-weight: bolder;
+}
+#footer>section{
+    background-color: rgba(169, 169, 169, 0.363);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 300px;
+}
+.footer-text{
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: bold; 
 }
  
