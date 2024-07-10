@@ -232,7 +232,7 @@ nav >button{
 }
 .common-text>a{
     color: black;
-    font-weight: bold;
+    font-weight: bolder;
 }
 .common-text{
     display: flex;
